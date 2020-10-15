@@ -1,0 +1,17 @@
+name: Angular related
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  angular-unit-test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+    - run: npm install -g @angular/cli
+    - run: cd ../../Front-end/my-gaming-records
+    - run: npm run test
