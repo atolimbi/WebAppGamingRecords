@@ -13,6 +13,7 @@ jobs:
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v1
     - run: npm install -g @angular/cli
+    - run: pwd
     - run: cd Front-end/my-gaming-records
     - run: pwd
     - run: npm run test
