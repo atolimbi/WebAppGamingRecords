@@ -4,7 +4,7 @@
   "description": "WebApp",
   "main": "index.js",
   "scripts": {
-	  "myattempt": "cd ./Front-end/my-gaming-records && npm ci && ng build --prod",
+	  "leotest": "cd ./Front-end/my-gaming-records && npm ci && ng build --prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
