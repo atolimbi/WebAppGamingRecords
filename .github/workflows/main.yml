@@ -19,4 +19,3 @@ jobs:
 
     - name: npm install and npm run build
       run: npm install-deps
-      run: npm run angular-unit-test
