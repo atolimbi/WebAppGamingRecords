@@ -18,4 +18,4 @@ jobs:
         node-version: '12.x'
 
     - name: npm install and npm run build
-      run: npm install-deps
+      run: npm myattempt
