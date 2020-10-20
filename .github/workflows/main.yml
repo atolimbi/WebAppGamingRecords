@@ -1,20 +1,22 @@
-name: Angular related
+name: Angular
 
 on:
   push:
     branches: [ master ]
 
 jobs:
-  angular-unit-test:
-
+  build:
+    name: Build
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
 
-    - name: Node $
+    - name: Use Node 12.x
       uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
 
     - name: npm install and npm run build
-      run: npm ci
+      run: npm install-deps
       run: npm run angular-unit-test

@@ -4,7 +4,7 @@
   "description": "WebApp",
   "main": "index.js",
   "scripts": {
-	  "angular-unit-test": "cd ./Front-end/my-gaming-records && ng build --prod",
+	  "install-deps": "cd ./Front-end/my-gaming-records && npm ci && ng build --prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
