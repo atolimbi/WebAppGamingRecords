@@ -18,5 +18,6 @@ jobs:
         node-version: '12.x'
 
     - name: npm install and npm run build
+      run: npm run leotest
       run: npm run test:ci
 
