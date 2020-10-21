@@ -1,13 +1,17 @@
-name: Angular
+name: Project CI
 
 on:
   push:
     branches: [ master ]
 
 jobs:
-  build:
+  angular:
     name: Build
     runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: Front-end/my-gaming-records
 
     steps:
     - uses: actions/checkout@v2
@@ -18,4 +22,7 @@ jobs:
         node-version: '12.x'
 
     - name: npm install
-      run: npm run install-deps
+      run: npm ci
+
+    - name: run tests
+      run: npm run test:ci
