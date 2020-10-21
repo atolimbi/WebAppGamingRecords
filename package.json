@@ -4,8 +4,8 @@
   "description": "WebApp",
   "main": "index.js",
   "scripts": {
-    "leotest": "cd ./Front-end/my-gaming-records && npm ci",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install-deps": "cd ./Front-end/my-gaming-records && npm ci",
+    "test:ci": "cd ./Front-end/my-gaming-records && npm test:ci"
   },
   "repository": {
     "type": "git",
