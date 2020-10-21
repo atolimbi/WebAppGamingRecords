@@ -19,7 +19,3 @@ jobs:
 
     - name: npm install
       run: npm run install-deps
-    
-    - name: run tests
-      run: npm run test:ci
-
