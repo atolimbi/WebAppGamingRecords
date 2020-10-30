@@ -20,6 +20,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
+        
+    - name: cache to avoid re-install modules
       uses: actions/cache@v1 
       with:
         path: ~/.npm
