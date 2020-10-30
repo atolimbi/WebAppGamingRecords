@@ -20,7 +20,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-        
+
     - name: cache to avoid re-install modules
       uses: actions/cache@v1 
       with:
@@ -36,11 +36,11 @@ jobs:
       run: npm run test:ci
 
     - name: build
-      run: npm build
+      run: npm run build
 
     - name: deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3                             
       with:  
         GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: gh-pages 
+        BRANCH: master 
         FOLDER: dist/angular-ci-cd
