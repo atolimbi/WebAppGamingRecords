@@ -1,0 +1,71 @@
+/* 
+Theming
+// Primary : according to layout main should be: #262262
+*/
+$md-gamingrecords-prim: (
+    50 : #e5e4ec,
+    100 : #bebdd0,
+    200 : #9391b1,
+    300 : #676491,
+    400 : #47437a,
+    500 : #262262,
+    600 : #221e5a,
+    700 : #1c1950,
+    800 : #171446,
+    900 : #0d0c34,
+    A100 : #746fff,
+    A200 : #423cff,
+    A400 : #1109ff,
+    A700 : #0700ef,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #ffffff,
+        400 : #ffffff,
+        500 : #ffffff,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #ffffff,
+        A400 : #ffffff,
+        A700 : #ffffff,
+    )
+);
+
+/* For use in src/lib/core/theming/_palette.scss */
+// Secondary : according to layout main should be: #39af5a
+$md-gamingrecords-sec: (
+    50 : #e7f5eb,
+    100 : #c4e7ce,
+    200 : #9cd7ad,
+    300 : #74c78c,
+    400 : #57bb73,
+    500 : #39af5a,
+    600 : #33a852,
+    700 : #2c9f48,
+    800 : #24963f,
+    900 : #17862e,
+    A100 : #bdffc8,
+    A200 : #8aff9e,
+    A400 : #57ff74,
+    A700 : #3dff5f,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);

@@ -1,0 +1,14 @@
+@import 'custom-theme-palette';
+
+// Wrappers
+
+$wrapper : 130rem;
+
+
+// Media-Queries
+
+
+// Colors
+
+$main-color : map-get($map: $md-gamingrecords-prim, $key: 500);
+
