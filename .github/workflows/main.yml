@@ -43,5 +43,5 @@ jobs:
       env:
         REPO: self
         BRANCH: gh-pages
-        FOLDER: build
+        FOLDER: Front-end/my-gaming-records/dist/my-gaming-records
         GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
